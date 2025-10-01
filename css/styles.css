@@ -1,0 +1,183 @@
+/* Header */
+body {
+    font-family: 'Roboto', sans-serif;
+font-weight:400;
+color:#434455 ;
+background-color:#FFFFFF ;
+}
+
+header {
+    color:#FFFFFF;
+}
+.logo {
+    text-transform: uppercase;
+    color:#4D5AE5;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 18px ;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+ }
+
+.logo-dark {
+    color:#2E2F42;
+    font-size: 18px;
+    line-height: 1.17;
+}
+.menu {
+  color:#2E2F42;
+font-size: 16px;
+    line-height: 1.5;
+
+}
+.page-nav {
+    letter-spacing: 0.02em;
+color:#2E2F42;
+font-size: 16px;
+line-height: 1.5;
+text-decoration: none;
+ list-style-type: none;
+}
+.page-nav .link:hover,
+.page-nav .link:focus {
+color:#404BBF;
+}
+.link {
+   color: #2E2F42;  
+ font-weight: 500 ;
+font-style: normal;
+ text-decoration: none; 
+letter-spacing: 0.02em;
+}
+.address-link {
+ color:#434455 ;  
+ font-weight: 400 ;
+font-style: normal;
+ text-decoration: none;
+ font-style: normal;
+ font-size: 16px;
+ line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.address-link:hover,
+.address-link:focus {
+    color:#404BBF;
+}
+.contakts {
+font-style: normal;
+}
+/* Section One */
+.main-title{
+    background-color: #2E2F42;
+}
+.title {
+    color:#FFFFFF;
+   font-weight: 700;
+    background-color: #2E2F42;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.button {
+ background-color: #4D5AE5;  
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+ color: #FFFFFF;
+ font-size: 16px;
+ line-height: 1.5;
+letter-spacing: 0.04em;
+ cursor: pointer;
+ border: none;
+}
+.button:hover,
+.button:focus{
+    background-color: #404BBF;
+    color:#FFFFFF;
+}
+
+/* Sektion Two */
+.visually-hidden {
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.benefits {
+    color:#434455 ;
+    font-size: 16px;
+    text-decoration: none;
+    list-style-type: none;
+    }
+
+.sub-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;}
+     .paragraph-first {
+line-height: 1.5;
+letter-spacing: 0.02em;
+     }
+/* Section Tree */
+.team {
+    background-color:#F4F4FD ;
+}
+.sub-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+.list-team {
+text-decoration: none;
+list-style-type: none;
+}
+.team-card {
+  background-color:#FFFFFF ;  
+}
+.sub-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.paragraph {
+    color:#434455 ;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Section Four */
+.ul-portfolio {
+text-decoration: none;
+list-style-type: none;
+}
+.portfolio {
+    background-color: #E7E9FC;
+}
+
+/* Footer */
+.footer {
+    background-color:#2E2F42 ;
+}
+
+.logo-light {
+color: #F4F4FD;
+    font-size: 18px;
+    line-height: 1.17;
+}
+.paragraph-footer {
+   color: #F4F4FD;
+   font-size: 12px;
+   line-height: 1.5;
+letter-spacing: 0.02em;
+}
