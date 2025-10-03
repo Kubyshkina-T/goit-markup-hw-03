@@ -138,7 +138,7 @@ margin-left: auto
     letter-spacing: 0.02em;
    margin: 0 auto;
     max-width: 496px;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 .button {
  background-color: #4D5AE5;  
@@ -190,13 +190,11 @@ text-align: center;
     text-decoration: none;
     list-style-type: none;
     display: flex;
-    align-items: center;
     gap: 24px;
     }
 
     .li-benefits {
-    width: 264px; 
-    align-items: center;
+    width: calc((100% - 24px * 2) / 3);
     }
 
 .sub-subtitle {
@@ -221,7 +219,6 @@ letter-spacing: 0.02em;
     padding: 120px 0;
 }
 .sub-title {
-padding-top: 120px;
     margin-bottom: 72px;
 font-weight: 700;
 font-size: 36px;
@@ -235,18 +232,17 @@ color: #2E2F42;
 text-decoration: none;
 list-style-type: none;
 display: flex;
-align-items: center; 
 gap: 24px;
 }
 .team-card {
   background-color:#FFFFFF ;  
   border-radius: 0 0 4px 4px;
-margin-bottom: 120px;
+width: calc((100% - 24px * 3) / 4);
 
 }
 .team-container {
    box-sizing: border-box;
-   padding: 32px 0;
+padding: 32px 0;
    text-align: center;
 }
 .sub-subtitle {
@@ -301,8 +297,8 @@ display: flex;
         border-right: 1px solid #E7E9FC;
         }
 .li-portfolio {
-   /* width: calc((100% - 24px*2) / 3); */
-    width: 360px;
+width: calc((100% - 24px * 2) / 3);
+   
 }
 
 .sub-subtitle-portfolio {
@@ -329,7 +325,7 @@ color: #F4F4FD;
 }
 .paragraph-footer {
    color: #F4F4FD;
-   font-size: 12px;
+   font-size: 16px;
    line-height: 1.5;
 letter-spacing: 0.02em;
 width: 264px;
