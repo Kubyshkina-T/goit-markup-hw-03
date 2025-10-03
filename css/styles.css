@@ -216,11 +216,9 @@ letter-spacing: 0.02em;
 /* #endregion Sektion Two */
 
 /* #region Section Tree */
-.section-benefits {
-    padding: 120px 0;
-}
 .team {
     background-color:#F4F4FD ;
+    padding: 120px 0;
 }
 .sub-title {
 padding-top: 120px;
